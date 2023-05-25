@@ -1,0 +1,26 @@
+
+
+:root {
+    --primary-color: #293c48;
+    --secondary-color: #ff630e;
+}
+
+/* html {
+    // font-size: 62.5%;
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeSpeed;  
+}
+
+.form-control.is-invalid:focus,
+.form-control:focus {
+    box-shadow: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
